@@ -95,3 +95,22 @@ function populate() {
         nameQueue = ["george", "Alvin", 'sven']
     })
 }
+
+function populatev2() {
+    imageQueue = ["https://images.unsplash.com/photo-1641400731477-fdfc14c297ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NzU2ODd8MHwxfHNlYXJjaHwyODZ8fG1vbmtleXN8ZW58MHx8fHwxNzMxNjgwNjY3fDA&ixlib=rb-4.0.3&q=80&w=1080",
+            "https://images.unsplash.com/photo-1655393208548-2ece1c952e79?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NzU2ODd8MHwxfHNlYXJjaHwyODd8fG1vbmtleXN8ZW58MHx8fHwxNzMxNjgwNjY3fDA&ixlib=rb-4.0.3&q=80&w=400",
+            "https://images.unsplash.com/photo-1641400730085-f8ed50d3a718?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NzU2ODd8MHwxfHNlYXJjaHwyODh8fG1vbmtleXN8ZW58MHx8fHwxNzMxNjgwNjY3fDA&ixlib=rb-4.0.3&q=80&w=400",
+            "https://images.unsplash.com/photo-1543910759-cd9f15cc1f7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NzU2ODd8MHwxfHNlYXJjaHw2MXx8bW9ua2V5c3xlbnwwfHx8fDE3MzE2ODExMDF8MA&ixlib=rb-4.0.3&q=80&w=400",
+            "https://images.unsplash.com/photo-1665435246398-52ef9c699924?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NzU2ODd8MHwxfHNlYXJjaHw2Mnx8bW9ua2V5c3xlbnwwfHx8fDE3MzE2ODExMDF8MA&ixlib=rb-4.0.3&q=80&w=400",
+            "https://images.unsplash.com/flagged/photo-1571083720815-0e02060f1f84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NzU2ODd8MHwxfHNlYXJjaHw2M3x8bW9ua2V5c3xlbnwwfHx8fDE3MzE2ODExMDF8MA&ixlib=rb-4.0.3&q=80&w=400",
+            "https://images.unsplash.com/photo-1705207332304-76fbfa3d1281?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NzU2ODd8MHwxfHNlYXJjaHw2NHx8bW9ua2V5c3xlbnwwfHx8fDE3MzE2ODExMDF8MA&ixlib=rb-4.0.3&q=80&w=400",
+            "https://images.unsplash.com/photo-1599036495549-20448a080ca4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NzU2ODd8MHwxfHNlYXJjaHw2NXx8bW9ua2V5c3xlbnwwfHx8fDE3MzE2ODExMDF8MA&ixlib=rb-4.0.3&q=80&w=400",
+            "https://images.unsplash.com/photo-1585830446658-338215e08888?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NzU2ODd8MHwxfHNlYXJjaHw2Nnx8bW9ua2V5c3xlbnwwfHx8fDE3MzE2ODExMDF8MA&ixlib=rb-4.0.3&q=80&w=400",
+            "https://images.unsplash.com/photo-1642779987366-8f0dc73b238f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NzU2ODd8MHwxfHNlYXJjaHw2N3x8bW9ua2V5c3xlbnwwfHx8fDE3MzE2ODExMDF8MA&ixlib=rb-4.0.3&q=80&w=400",
+            "https://images.unsplash.com/photo-1577974281938-76fb711251af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NzU2ODd8MHwxfHNlYXJjaHw2OHx8bW9ua2V5c3xlbnwwfHx8fDE3MzE2ODExMDF8MA&ixlib=rb-4.0.3&q=80&w=400",
+    ]
+
+    nameQueue = ["George", "Alan", "Lucy", "Milo", "Geoffrey", "Sean", "Ryu", "Riley", "Kyle", "Naomi", "Cindy", "Jayla", "Carter"]
+}
+
+populate()
