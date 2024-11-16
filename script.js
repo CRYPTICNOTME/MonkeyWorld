@@ -1,5 +1,7 @@
 const picture = document.getElementById('picture')
 const theName = document.getElementById('name')
+const backImage = document.getElementById('backPicture')
+let loaded = false
 let imageQueue = []
 let nameQueue = []
 let likes = []
@@ -85,6 +87,7 @@ function populate() {
     .then(result => {for (let index = 0; index < result.results.length; index++) {
         imageQueue.push(result.results[index].urls.regular)
         nameQueue.push(result.results[index].user.first_name)
+        loaded = true
     }})
     .catch(error => {
         console.log(error)
@@ -112,5 +115,6 @@ function populatev2() {
 
     nameQueue = ["George", "Alan", "Lucy", "Milo", "Geoffrey", "Sean", "Ryu", "Riley", "Kyle", "Naomi", "Cindy", "Jayla", "Carter"]
 }
+
 
 populate()
