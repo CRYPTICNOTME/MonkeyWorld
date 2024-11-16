@@ -4,8 +4,7 @@ body{
 }
 
 #container{
-    max-width: 1080px;
-    max-height: 2408px;
+    max-width: 1000px;
     background-color: rgb(185, 184, 184);
     position: absolute;
     width: 90%;
@@ -16,8 +15,20 @@ body{
     border-radius: 60px;
 }
 
+@media screen and (min-width: 800px) {
+    #container{
+        min-height: 1000px;
+        scale: .5;
+        position: absolute;
+        width: 90%;
+        height: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-100%, -100%);
+    }
+}
+
 #picture{
-    max-width: 900px;
     position: absolute;
     background-color: transparent;
     width: 90%;

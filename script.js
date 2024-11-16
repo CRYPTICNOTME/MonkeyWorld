@@ -44,6 +44,28 @@ function detectSwipe(el, callback) {
     });
 }
 
+document.addEventListener('keydown', (event) => {
+    keycode = event.key
+    if(keycode == 'ArrowLeft') {
+        picture.style.animation = 'swipeL 1s'
+            sleep(1001).then(() => {
+                picture.style.animation = 'none'
+                picture.style.backgroundImage = changeImg(imageQueue.pop())
+                theName.textContent = nameQueue.pop()
+            })
+    }
+    if(keycode == 'ArrowRight') {
+        picture.style.animation = 'swipeR 1s'
+            likes.push(picture.style.backgroundImage)
+            sleep(1001).then(() => {
+                picture.style.animation = 'none'
+                picture.style.backgroundImage = changeImg(imageQueue.pop())
+                theName.textContent = nameQueue.pop()
+            })
+    }
+})
+
+
 function sleep(time){
     return new Promise((resolve) => setTimeout(resolve, time))
 }
